@@ -1,0 +1,8 @@
+---
+description: Enforce feature alignment with core product vision
+alwaysApply: true
+source: docs/vision.md
+---
+
+- Before implementing or modifying any feature, verify it maps to at least one item in `docs/vision.md`, e.g. Use Cases, Target Audience, Technical Requirements, Notes, or App-Specific Strategies.  
+- If a proposed feature does not align, flag it for product review and hold implementation until approved. Ask clarifying questions if necessary.
