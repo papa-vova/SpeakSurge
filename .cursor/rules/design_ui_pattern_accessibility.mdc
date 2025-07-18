@@ -1,0 +1,15 @@
+---
+description: UI pattern for Accessibility
+alwaysApply: true
+---
+
+- Approach:  
+  - Use semantic Compose APIs (e.g. AccessibleRole)  
+  - Ensure focus order and content descriptions are set  
+  - Test with TalkBack and high-contrast display modes
+
+- Requirements:
+  - Follow Material Design accessibility guidelines
+  - Support screen readers
+  - Consider color contrast
+  - Provide alternative interaction methods

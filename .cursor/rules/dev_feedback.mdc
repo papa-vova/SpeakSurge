@@ -1,0 +1,18 @@
+---
+description: Implementation guideline for in-app feedback feature
+alwaysApply: true
+---
+
+- Render the feedback control in `MainActivity` or base layout so it’s injected into every screen.  
+- When triggered, launch a `Compose` overlay (e.g., `ModalBottomSheet`) rather than a full new `Activity`.  
+- Auto-capture & package context metadata:
+  - Which screen, e.g. `screenRoute` or `screenId` from the NavController  
+  - Last user action(s) or UI event log  
+  - Equivalent of `appVersion`, `buildNumber`, plus a UTC timestamp  
+- For attachments:
+  - Use Android’s media picker for screenshots  
+  - Compress images client-side to ≤ 500 KB  
+- Submit feedback over HTTPS:
+  - Retry up to 3× with exponential backoff on network errors  
+- Expose retry/cancel in the UI if submission fails; log failures.  
+- Ensure the UI remains responsive: show in-flight spinner on the “Send” button and disable it until completion.  

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SpeakSurge</string>
+    
+    <!-- Main Navigation -->
+    <string name="words">Words</string>
+    <string name="topics">Topics</string>
+    <string name="dialogs">Dialogs</string>
+    
+    <!-- Secondary Actions -->
+    <string name="stats">Stats</string>
+    <string name="config">Config</string>
+    <string name="exit">Exit</string>
+    
+    <!-- Content Descriptions -->
+    <string name="words_description">Navigate to word learning</string>
+    <string name="topics_description">Navigate to topics learning</string>
+    <string name="dialogs_description">Navigate to dialog learning</string>
+    <string name="stats_description">View your learning statistics</string>
+    <string name="config_description">Open app configuration</string>
+    <string name="exit_description">Exit the application</string>
+    
+    <!-- Words Practice Screen -->
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="record">Record</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="play_description">Play audio pronunciation</string>
+    <string name="record_description">Record your pronunciation</string>
+    <string name="previous_description">Go to previous word</string>
+    <string name="next_description">Go to next word</string>
+    
+    <!-- Practice UI Components -->
+    <string name="progress_format">%1$d of %2$d</string>
+</resources>

@@ -1,0 +1,11 @@
+---
+description: UI pattern for Navigation
+alwaysApply: true
+---
+
+- Approach: Simple, intuitive navigation
+
+- Considerations:
+  - One-handed accessibility
+  - Clear visual hierarchy
+  - Minimal cognitive load

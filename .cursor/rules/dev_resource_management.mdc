@@ -1,0 +1,10 @@
+---
+description: Resource management guidelines
+alwaysApply: true
+---
+
+- Do not hardcode text in the app; use string resources for all UI text.
+- Define strings in res/values/strings.xml using descriptive, hierarchical naming conventions.
+- Group related strings together for easier maintenance and localization support.
+- Leverage AI assistance to suggest reusing existing resources when duplicate or similar text is detected.
+- Identify potential duplicates and recommend consolidating resources to maintain consistency.

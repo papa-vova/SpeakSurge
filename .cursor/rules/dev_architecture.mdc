@@ -1,0 +1,13 @@
+---
+description: Android MVVM + Clean Architecture guidelines
+alwaysApply: true
+---
+
+- ALWAYS implement MVVM + Clean Architecture from the first line of code, not after problems arise.
+- Follow the official Android architecture recommendations: MVVM + Clean Architecture.
+- Presentation layer must use Compose UI (View), ViewModel for UI state management, and UI State classes to handle user interactions, manage UI state, and coordinate with the domain layer.
+- Domain layer must implement business logic via Use Cases, define Entities (domain models), and Repository interfaces for data contracts.
+- Data layer must implement Repository implementations, manage Data sources (local/remote), and define Data models for persistence, networking, and transformation.
+- Adhere to key principles: Separation of concerns, Dependency inversion, Single responsibility, Testability, Maintainability.
+- Enforce inward dependencies (domain layer has no dependencies on outer layers).
+- Use dependency injection (Hilt recommended) and scope dependencies appropriately.

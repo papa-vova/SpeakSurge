@@ -1,0 +1,10 @@
+---
+description: Avoid excessive gamification
+alwaysApply: true
+---
+
+- Priority: High
+
+- Examples:
+  - Avoid: Duolingo-style excessive animations, points, streaks, etc.
+  - Prefer: Clean progress indicators, subtle achievements, elegant feedback

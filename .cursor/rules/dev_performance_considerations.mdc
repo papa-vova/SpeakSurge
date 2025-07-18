@@ -1,0 +1,10 @@
+---
+description: Performance considerations
+alwaysApply: true
+---
+
+- Optimize for real-time operations and low-latency interactions.
+- Implement efficient media loading and caching strategies.
+- Ensure UI responsiveness with smooth animations and transitions.
+- Manage memory properly by respecting component lifecycles.
+- Minimize background processing to optimize battery usage.

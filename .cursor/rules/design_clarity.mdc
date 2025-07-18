@@ -1,0 +1,11 @@
+---
+description: Simple, clear UI/UX - users understand what to do without external help
+alwaysApply: true
+---
+
+- Priority: High
+
+- Constraints:
+  - Minimal cognitive load on UI/UX
+  - Self-explanatory interactions
+  - No need for tutorials or help text

@@ -1,0 +1,19 @@
+---
+description: UI framework guidelines (Primary: Material Design 3)
+alwaysApply: true
+---
+
+- Reference: https://m3.material.io/
+- Alignment: Perfect fit with design principles
+- Key Benefits:
+  - Built-in minimalism and clarity
+  - Comprehensive design system
+  - Accessibility standards
+  - Consistent component library
+  - Modern Android design patterns
+
+- Implementation:
+  - Framework: Jetpack Compose with Material 3
+  - Components: Use Material 3 components as foundation
+  - Customization: Customize within Material 3 guidelines
+  - Theming: Material 3 theming system with custom colors

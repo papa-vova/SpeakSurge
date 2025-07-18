@@ -1,0 +1,15 @@
+---
+description: UI/UX guideline for in-app feedback access
+alwaysApply: true
+---
+
+- Provide a persistent, discoverable “Send Feedback” affordance on **every** screen (e.g. toolbar icon, bottom-sheet gesture, or floating button).  
+- Label it clearly (“Feedback”, “Report Issue”) and use a familiar icon (e.g. 📨, 💬).  
+- Tapping it should open a lightweight overlay/modal—don’t navigate away from the current context.  
+- In that overlay, allow:
+  - Free-form text input for comments  
+  - Quick-selection tags (e.g. “Bug”, “Suggestion”, “Praise”)  
+  - Optional attachment controls (screenshot picker, camera snapshot)  
+- Always display a brief hint about what context will be auto-included (screen name, recent action).  
+- Include a prominent “Send” button and a “Cancel” link to dismiss without losing typed text.  
+- After sending, show a non-blocking confirmation toast/snackbar (“Thanks! We received your feedback.”).  

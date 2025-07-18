@@ -1,0 +1,10 @@
+---
+description: UI pattern for Feedback
+alwaysApply: true
+---
+
+- Approach: Subtle, encouraging feedback for user actions
+
+- Progress: Clean, meaningful progress indicators
+
+- Results: Elegant result presentation without overwhelming effects

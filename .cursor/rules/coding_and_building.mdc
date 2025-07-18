@@ -1,0 +1,8 @@
+---
+description: Coding in Cursor, building in Android Studio
+alwaysApply: true
+---
+
+- All coding happens in Cursor.
+- All building and testing happens in Android Studio.
+- Whenever we need to perform building and/or testing, tell this and wait for the input.

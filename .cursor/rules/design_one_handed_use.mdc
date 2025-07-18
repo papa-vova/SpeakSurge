@@ -1,0 +1,12 @@
+---
+description: Easy to handle with one hand
+alwaysApply: true
+---
+
+- Priority: High
+
+- Implications:
+  - Thumb-friendly button placement
+  - Consider option for swapping right/left hand
+  - Reachable interface elements
+  - Consider device sizes and hand positions

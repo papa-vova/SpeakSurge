@@ -1,0 +1,15 @@
+---
+description: Kotlin coding style guidelines
+alwaysApply: true
+---
+
+- Follow the official Kotlin style guide strictly: https://developer.android.com/kotlin/style-guide
+- Use camelCase for variables and functions.
+- Use PascalCase for classes and objects.
+- Use UPPER_SNAKE_CASE for constants.
+- Prefer val over var when possible.
+- Use meaningful, self-documenting names.
+- Keep functions small and focused; use expression bodies for simple functions.
+- Prefer data classes for data containers.
+- Use extension functions appropriately.
+- Adhere to Kotlin idioms and conventions for readability, consistency, and maintainability.

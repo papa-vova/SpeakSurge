@@ -1,0 +1,10 @@
+---
+description: Security practices
+alwaysApply: true
+---
+
+- Secure local storage of user data and preferences (e.g., encrypted storage).
+- Request only minimal permissions necessary for functionality.
+- Respect user privacy by collecting only essential data.
+- Validate all user inputs to prevent injection and data corruption.
+- Design for offline-first functionality when possible to enhance resilience.

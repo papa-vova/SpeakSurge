@@ -1,0 +1,9 @@
+---
+description: Edge case protection guidelines
+alwaysApply: true
+---
+
+- Use Kotlin's null safety features (safe calls ?, non-null assertions !!, elvis operators ?:) to prevent null pointer issues.
+- Apply require() and check() functions for parameter validation.
+- Add runtime checks for critical operations and validate data integrity at boundaries.
+- Use assert() for development-time checks (disabled in production) to catch early bugs.

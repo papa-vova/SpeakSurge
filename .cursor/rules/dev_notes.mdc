@@ -1,0 +1,8 @@
+---
+description: Development philosophy and documentation guidelines
+alwaysApply: true
+---
+
+- Embrace a 'speed first, then quality' pragmatic development philosophy.
+- Keep code self-documenting; add comments only for complex or non-obvious logic.
+- In code reviews, focus on critical issues and avoid over-engineering.
