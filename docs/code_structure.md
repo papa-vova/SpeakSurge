@@ -3,24 +3,24 @@
 ## Tree
 ```
 speaksurge/
-├── MainActivity.kt                    # Main app entry point with navigation
-├── MainMenuViewModel.kt               # ViewModel for main menu state management
-└── practice/                          # Practice mode architecture
-    ├── BasePracticeViewModel.kt       # Abstract base ViewModel for all practice modes
-    ├── BasePracticeContentItem.kt     # Interface for individual practice content items
+├── MainActivity.kt                      # Main app entry point with navigation
+├── MainMenuViewModel.kt                 # ViewModel for main menu state management
+└── practice/                            # Practice mode architecture
+    ├── BasePracticeViewModel.kt         # Abstract base ViewModel for all practice modes
+    ├── BasePracticeContentItem.kt       # Interface for individual practice content items
     ├── BasePracticeContentCollection.kt # Interface for practice content collection management
-    ├── BasePracticeState.kt           # DataStore keys and default values for state persistence
-    ├── PracticeDataStore.kt           # DataStore implementation for practice state persistence
-    ├── PracticeProgressBar.kt         # Reusable progress bar component
-    ├── PracticeMediaControls.kt       # Reusable media controls component
-    ├── PracticeContentComponent.kt    # Interface for practice content display components
-    └── words/                         # Words practice mode implementation
-        ├── WordsPracticeViewModel.kt  # ViewModel extending BasePracticeViewModel for words
-        ├── Word.kt                    # Data class for word structure
-        ├── WordContentItem.kt         # Implements BasePracticeContentItem for words
-        ├── WordsContentCollection.kt  # Implements BasePracticeContentCollection for words
-        ├── WordsContentComponent.kt   # Implements PracticeContentComponent for words UI display
-        └── WordsPracticeScreen.kt     # Words practice screen using new architecture
+    ├── BasePracticeState.kt             # DataStore keys and default values for state persistence
+    ├── PracticeDataStore.kt             # DataStore implementation for practice state persistence
+    ├── PracticeProgressBar.kt           # Reusable progress bar component
+    ├── PracticeMediaControls.kt         # Reusable media controls component
+    ├── PracticeContentComponent.kt      # Interface for practice content display components
+    └── words/                           # Words practice mode implementation
+        ├── WordsPracticeViewModel.kt    # ViewModel extending BasePracticeViewModel for words
+        ├── Word.kt                      # Data class for word structure
+        ├── WordContentItem.kt           # Implements BasePracticeContentItem for words
+        ├── WordsContentCollection.kt    # Implements BasePracticeContentCollection for words
+        ├── WordsContentComponent.kt     # Implements PracticeContentComponent for words UI display
+        └── WordsPracticeScreen.kt       # Words practice screen
 ```
 
 ## File Explanations
@@ -61,4 +61,4 @@ speaksurge/
 
 * `WordsContentComponent.kt`: Implements PracticeContentComponent, handles UI display logic for words (cards, typography, layout)
 
-* `WordsPracticeScreen.kt`: Main words practice screen using the new architecture components
+* `WordsPracticeScreen.kt`: Main words practice screen
